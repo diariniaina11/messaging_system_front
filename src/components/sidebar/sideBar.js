@@ -17,7 +17,6 @@ export default function SideBar()
                 <li className={`${styles.li}`}>
                     <img src="groups_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></img>
                     <li className={`${styles.badge}`}>1</li>
-                    
                 </li>
                 
             </ul>
