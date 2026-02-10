@@ -35,3 +35,14 @@
     height: 35px;
     transition: 0.5s;
 }
+.badge{
+    position: relative;
+    bottom: 38px;
+    left: 18px;
+    font-size: 14px;
+    padding: 2px;
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 999px;
+}
