@@ -81,7 +81,14 @@
     color: #e9edef;
 }
 
-background-color: #292a2a;
+.activeFilter {
+    background-color: #00a884 !important;
+    /* Force override */
+    color: #111b21 !important;
+}
+
+.activeFilter:hover {
+    background-color: #008f6f !important;
 }
 
 .filterButtonContainer {

@@ -3,8 +3,8 @@
     flex-direction: column;
     background-color: #111b21;
     /* Main chat list bg */
-    height: calc(100vh - 164px);
-    /* Subtract header height */
+    flex: 1;
+    /* Take remaining space */
     overflow-y: auto;
 }
 
