@@ -6,7 +6,7 @@ export default function SideBar()
             <ul className={styles.topElement}>
                 <li className={`${styles.li}`}>
                     <img src="business_messages_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></img>
-                    <li className={`${styles.badge}`}>1</li>
+                    <li className={`${styles.badge}`}><b>1</b></li>
                 </li>
                 <li className={`${styles.li}`}>
                     <img src="circle_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></img>
