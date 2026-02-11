@@ -1,11 +1,14 @@
 import Chat from "./chat/chat";
 import styles from "./Message.module.css";
+import Head from "./head/Head";
 
 export default function Message(){
     return (
         <div className={styles.container}>
             <div className={styles.leftContent}>
-                test1
+                <Head>
+                    
+                </Head>
                 
             </div>
             <div className={styles.rightContent}>
