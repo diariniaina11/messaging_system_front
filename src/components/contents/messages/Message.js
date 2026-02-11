@@ -1,22 +1,18 @@
-import Chat from "./chat/chat";
 import styles from "./Message.module.css";
 import Head from "./head/Head";
+import EmptyState from "./EmptyState";
+import ChatList from "./ChatList";
 
-export default function Message(){
+export default function Message() {
     return (
         <div className={styles.container}>
             <div className={styles.leftContent}>
-                <Head>
-                    
-                </Head>
-                
+                <Head />
+                <ChatList />
             </div>
             <div className={styles.rightContent}>
-                tset2
-                
+                <EmptyState />
             </div>
-            
         </div>
-        
     )
 }
