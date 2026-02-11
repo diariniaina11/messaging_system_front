@@ -1,0 +1,27 @@
+.container{
+    height: 100%;
+    background-color: rgb(2, 57, 57);
+    flex-grow: 1;
+    height: 100vh;
+    display: flex;
+}
+.leftContent{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(4, 78, 78);
+}
+.rightContent{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(26, 58, 58);
+    flex-grow: 1;
+    min-width: 700px;
+
+}
+@media (max-width: 600px) {
+    .container {
+      flex-direction: column; /* On empile les éléments verticalement */
+    }
+  
+    
+  }
