@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #222e35;
+    /* WhatsApp dark background */
+    color: #e9edef;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonsWrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.actionButton {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    /* Squarish with rounded corners */
+    background-color: #3b4a54;
+    /* Slightly lighter than bg */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aebac1;
+    /* Icon color */
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.actionButton:hover {
+    background-color: #4a5d69;
+}
+
+.label {
+    font-size: 14px;
+    color: #aebac1;
+    text-align: center;
+}
